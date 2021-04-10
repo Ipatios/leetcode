@@ -23,22 +23,19 @@ Example 4:
 Input: x = 0
 Output: 0
 */ 
-#include<iostream>
 int reverse(int x) {
         bool neg = false;
         if(x < 0){
             neg = true;
             long long tmp = x * -1LL;
-            //consider -2147483648
             if(tmp > INT_MAX) return 0;
-            // x = tmp;
+            
         }
         
         int ans = 0;
         
         while(x){
             long long tmp = ans * 10LL + x % 10;
-            //consider 1534236469
             if(tmp > INT_MAX) return 0;
             ans = tmp;
             x /= 10;
@@ -50,9 +47,3 @@ int reverse(int x) {
         
         return ans;
     };
-
-int main(){
-    int x=968;
-    std::cout<<reverse(x);
-
-}
