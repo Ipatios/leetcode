@@ -63,7 +63,7 @@ public class Solution
                 charPosMap.clear();
             }
              
-            //Updating longestSubstring and longestSubstringLength
+            //Updating longestSubstringLength
              
             if(charPosMap.size() > longestSubstringLength)
             {
