@@ -41,7 +41,7 @@ class Solution {
 	return max;
 }
 }
-// second programme thats correct but slow :(
+// second programm thats correct but slow :(
 // class Solution {
 //     public int maxArea(int[] height) {    
 //     int WaterTank = 0;
