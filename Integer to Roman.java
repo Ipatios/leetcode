@@ -44,7 +44,7 @@ Output: "MCMXCIV"
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 */ 
 import java.util.HashMap;
-class Solutio {
+class Solution {
     public String intToRoman(int num) {
         String str = new String();
         int i=12;
