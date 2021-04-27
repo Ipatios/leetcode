@@ -9,7 +9,7 @@ Explanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).
 */ 
 import java.util.Arrays;
 
-class Solutio {
+class Solution {
     public int threeSumClosest(int[] nums, int target) {
         int min = Integer.MAX_VALUE;
         int result = 0;
