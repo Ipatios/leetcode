@@ -32,7 +32,10 @@ public:
         for (int i = 0; i < n; ++i)
         {
             /*
-            a - '0' is equivalent to ((int)a) - ((int)'0'), which means the ascii values of the characters are subtracted from each other. Since 0 comes directly before 1 in the ascii table (and so on until 9), the difference between the two gives the number that the character a represents.
+            a - '0' is equivalent to ((int)a) - ((int)'0'), 
+            which means the ascii values of the characters are subtracted from each other. 
+            Since 0 comes directly before 1 in the ascii table (and so on until 9), 
+            the difference between the two gives the number that the character a represents.
             */ 
             int a = i < A.length() ? A[i] - '0' : 0;
             int b = i < B.length() ? B[i] - '0' : 0;
