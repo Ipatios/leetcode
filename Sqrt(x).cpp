@@ -44,7 +44,7 @@ public:
              if (temp > (x / temp))
                 high = temp;
              // if temp < (x / temp) then low =temp
-            //  if its now perfect square then it will take the lower number
+            //  if its not perfect square then it will take the lower number
              else
                  low = temp;
         }
