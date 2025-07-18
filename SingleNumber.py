@@ -1,6 +1,5 @@
 # XORing would be better 
 from typing import List
-
 class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         i = 0
@@ -12,8 +11,7 @@ class Solution:
         while i+1 < len(nums):
             if nums[i] != nums[i+1]:
                 return nums[i]
-            else:
-                i+=2
+            i+=2
         
         return nums[len(nums) - 1 ] 
 
